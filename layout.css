@@ -1,12 +1,47 @@
 .div_t {
-    background-color: #121212;
-    height: 50pt;
-    width: 100%;
+    background-color: #262626;
     margin: 0;
     padding: 0;
+    top: 0;
+    height: 70pt;
+    width: 100vw;
 }
 
 .t {
     font-size: 50pt;
-    text-align: center; 
+    text-align: center;
+    color: lightskyblue;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.div_end {
+    height: 40pt;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-color: lightslategrey;
+    position: absolute;
+    bottom: 0px;
+}
+
+.end {
+    color: white;
+    text-align: center;
+}
+
+.trash {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
