@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     top: 0;
-    height: 70pt;
     width: 100vw;
 }
 
@@ -37,11 +36,12 @@ body {
 }
 
 .trash {
-    width: 600px;
-    height: 500px;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    padding-top: 7%;
+    top: 100%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, 0%);
+    width: 40%;
+    height: 50%;
 }
